@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Recetas de Cocina</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            .section-padding {
+                padding: 50px 0;
+            }
+            .recipes-container {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin: 20px;
+            }
+            .recipe-item {
+                margin: 15px;
+                width: calc(33% - 30px);
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+                border-radius: 10px;
+                overflow: hidden;
+                text-align: center;
+            }
+            .recipe-image {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+            .recipe-title {
+                padding: 15px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .recipe-link {
+                display: block;
+                margin: 20px 0;
+                color: #007bff;
+                text-decoration: none;
+            }
+            .recipe-link:hover {
+                color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href=""><img src="img/logo.png" alt="logo"></a>
+                <ul id="menu">
+                    <li><a href="index.html">Sobre nosotros</a></li>
+                    <li><a href="rutinas.html">Rutinas</a></li>
+                    <li><a >Recetas</a></li>
+                </ul>
+            </nav>
+            <div id="title" class="section-padding">
+                <h1 class="txtwhite">Recetas deliciosas y saludables<span class="txtred">/</span></h1>
+            </div>
+        </header>
+        <main>
+            <section class="recipes-section section-padding">
+                <div class="recipes-container">
+                    <div class="recipe-item">
+                        <img src="img/ensalada.jpg" alt="Ensalada Fresca" class="recipe-image">
+                        <h2 class="recipe-title">Ensalada Fresca</h2>
+                        <a href="ensalada.html" class="recipe-link">Ver receta</a>
+                    </div>
+                    <div class="recipe-item">
+                        <img src="img/verduras.jpeg" alt="Verduras Asadas" class="recipe-image">
+                        <h2 class="recipe-title">Verduras Asadas</h2>
+                        <a href="verduras-asadas.html" class="recipe-link">Ver receta</a>
+                    </div>
+                    <div class="recipe-item">
+                        <img src="img/batido.jpg" alt="Batido" class="recipe-image">
+                        <h2 class="recipe-title">Batido</h2>
+                        <a href="batido.html" class="recipe-link">Ver receta</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="infosite section-padding">
+                <div class="container3 art2">
+                    <h5>Recursos</h5>
+                    <p>Accede a más guías y recursos para mejorar tus habilidades culinarias y descubrir sabores nuevos.</p>
+                </div>
+                <div class="container3 art2">
+                    <h5>Sobre nosotros</h5>
+                    <p>Explora quiénes somos y nuestra misión de llevar la mejor información culinaria hasta tu cocina.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
